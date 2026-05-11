@@ -16,12 +16,15 @@ Além disso, foi desenvolvida uma aplicação interativa em **Streamlit** para e
 - `app_streamlit.py` — aplicação Streamlit
 - `nhanes_limpo.csv` — base de dados usada na análise NHANES
 - `Projeto_Grupo.R` — script em R usado para limpeza/preparação dos dados
+- `requirements.txt` — dependências Python necessárias para correr a app (foi necessário para correr no Streamlit)
 - `relatorio.tex` — versão LaTeX do relatório
 
 ## Como executar localmente
 
 1. Instalar as dependências: 
-
+```bash
+pip install -r requirements.txt
+```
 2. Executar a aplicação:
 ```bash
 streamlit run app_streamlit.py
